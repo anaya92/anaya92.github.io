@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Amstrad";
+    src: url("font1.ttf")
+}
+
+html, body {
+    font-family: Amstrad;
+    background-color: white;
+}
+
+a {
+    color: grey; 
+}
+
+.block {
+    height: 98%;
+    width: 75%;
+
+    padding: 1px;
+    padding-bottom: 2px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: auto;
+
+    margin-bottom: 1%;
+
+    color: black;
+
+    background-color: white;
+}
+
+.centered {
+    text-align: center;
+}
