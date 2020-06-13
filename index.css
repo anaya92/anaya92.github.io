@@ -9,7 +9,7 @@ html, body {
 }
 
 a {
-    color: grey; 
+    color: brown; 
 }
 
 .block {
@@ -26,9 +26,12 @@ a {
 
     margin-bottom: 1%;
 
-    color: black;
+    color: maroon;
 
     background-color: white;
+
+    border-color: maroon;
+    border: solid;
 }
 
 .centered {
