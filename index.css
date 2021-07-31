@@ -1,21 +1,37 @@
 @font-face {
-    font-family: "Amstrad";
-    src: url("font1.ttf")
+    font-family: "SimSun";
+    src: url("SimSun.ttf")
 }
 
-html, body {
-    font-family: Amstrad;
-    background-color: white;
+html {
+    font-family: "SimSun";
+    background-image: url("img/grid.png");
+    background-repeat: repeat;
 }
 
 a {
     color: brown; 
 }
 
+b {
+    font-weight: bolder;
+}
+
+.main {
+    height: 98%;
+    width: 50%;
+    margin: auto;
+    padding: 32px;
+
+    color: #777777;
+
+    background-color: #B1B1B1;
+    border-style: solid;
+    border-color: #777777;
+}
+
 .block {
     height: 98%;
-    width: 75%;
-
     padding: 1px;
     padding-bottom: 2px;
 
@@ -25,13 +41,6 @@ a {
     margin: auto;
 
     margin-bottom: 1%;
-
-    color: maroon;
-
-    background-color: white;
-
-    border-color: maroon;
-    border: solid;
 }
 
 .blockcol {
@@ -44,6 +53,15 @@ a {
     margin: auto;
 }
 
+.bigtext {
+    font-size: 72px;
+}
+
+.lefttext {
+    text-align: left;
+}
+
 .centered {
     text-align: center;
 }
+
