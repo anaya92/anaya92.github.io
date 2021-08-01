@@ -1,20 +1,18 @@
 @font-face {
     font-family: "SimSun";
-    src: url("SimSun.ttf")
+    src: url("fonts/SimSun.ttf")
 }
 
 html {
     font-family: "SimSun";
-    background-image: url("img/gridnormal.png");
-    background-repeat: repeat;
-    background-size: 256px;
+    background-color: #008080;
    
     image-rendering: crisp-edges;
     image-rendering: pixelated;
 }
 
 a {
-    color: brown; 
+    color: #CC7BAD; 
 }
 
 b {
@@ -23,9 +21,10 @@ b {
 
 .main {
     height: 100%;
-    width: 50%;
+    width: 75%;
     margin: auto;
     padding: 32px;
+    padding-bottom: 8px;
 
     color: #777777;
 
@@ -38,9 +37,6 @@ b {
     height: 98%;
     padding: 1px;
     padding-bottom: 2px;
-
-    padding-left: 20px;
-    padding-right: 20px;
 
     margin: auto;
 
